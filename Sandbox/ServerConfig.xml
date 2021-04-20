@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <General ignore="tr">
+    <ServerName>No Name</ServerName>
+    <Port>1234</Port>
+    <AdminPort>1235</AdminPort>
+  </General>
+  <Logging ignore="tr">
+    <!--
+    LogTypes:
+    All = -1,
+    Off = 0,
+    Critical = 1,
+    Error = 3,
+    Warning = 7,
+    Information = 15,
+    Verbose = 31,
+    ActivityTracing = 65280
+    -->
+    <Console>
+      <Filters ignore="True">
+        <LogType>information</LogType>
+        <SubString ignore="True">Hello World!</SubString>
+        <SubString ignore="True">A Filter</SubString>
+      </Filters>
+    </Console>
+    <Json>
+      <FilePath></FilePath>
+      <Filters>
+        <LogType>information</LogType>
+        <LogType>7</LogType>
+        <SubString></SubString>
+      </Filters>
+    </Json>
+  </Logging>
+</Config>
+

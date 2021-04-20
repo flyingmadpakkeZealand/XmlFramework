@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  abc
+  <Child ignore="">
+    <InnerChild>
+      456
+    </InnerChild>
+    123
+  </Child>
+  <OtherChild>
+    Something else
+  </OtherChild>
+  <Child>
+    Like child, but not quite
+  </Child>
+  .efg
+</Root>
